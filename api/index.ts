@@ -1,5 +1,5 @@
-import { callModel } from '../src/api';
-import { addCorsHeaders } from '../src/utils';
+import { callModel } from './api';
+import { addCorsHeaders } from './utils';
 
 interface IRequestBody {
 	techStack: string[];
