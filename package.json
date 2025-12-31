@@ -6,6 +6,7 @@
     "deploy": "wrangler deploy",
     "dev": "wrangler dev",
     "start": "wrangler dev",
+    "build": "echo \"skip build\"",
     "test": "vitest",
     "cf-typegen": "wrangler types"
   },
