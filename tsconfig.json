@@ -43,5 +43,5 @@
 		"skipLibCheck": true
 	},
 	"exclude": ["test", "src/index.ts"],
-	"include": ["worker-configuration.d.ts", "src/**/*.ts"]
+	"include": ["worker-configuration.d.ts", "src/**/*.ts", "api/**/*.ts"]
 }
