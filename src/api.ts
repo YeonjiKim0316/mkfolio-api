@@ -65,7 +65,7 @@ export const callModel = async ({ apiKey, content }: ICallModel): Promise<IRecor
 			Authorization: `Bearer ${apiKey}`,
 		},
 	});
-	const data = await response.json<IModelResponse>();
+	const data = await response.json() as IModelResponse;
 	const record: IRecord = JSON.parse(data.choices[0].message.content);
 	return record;
 };
